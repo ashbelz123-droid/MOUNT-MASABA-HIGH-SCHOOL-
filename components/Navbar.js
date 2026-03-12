@@ -1,16 +1,19 @@
 import Link from "next/link"
 
-export default function Navbar() {
+export default function Navbar(){
 
-  return (
-    <nav className="nav">
+return(
 
-      <Link href="/">Home</Link>
+<div className="nav">
 
-      <Link href="/resources">AI Tutor</Link>
+<Link href="/">Home</Link>
 
-      <Link href="/login">Login</Link>
+<Link href="/resources">AI Tutor</Link>
 
-    </nav>
-  )
+<Link href="/login">Login</Link>
+
+</div>
+
+)
+
 }

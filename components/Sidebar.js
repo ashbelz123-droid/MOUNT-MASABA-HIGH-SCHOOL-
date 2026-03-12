@@ -1,16 +1,23 @@
 import Link from "next/link"
 
-export default function Sidebar() {
+export default function Sidebar(){
 
-  return (
-    <div className="sidebar">
+return(
 
-      <Link href="/">Home</Link>
+<div className="sidebar">
 
-      <Link href="/resources">AI Tutor</Link>
+<p><b>Menu</b></p>
 
-      <Link href="/login">Logout</Link>
+<Link href="/">Home</Link>
+<br/>
 
-    </div>
-  )
-    }
+<Link href="/resources">AI Tutor</Link>
+<br/>
+
+<Link href="/login">Logout</Link>
+
+</div>
+
+)
+
+  }
